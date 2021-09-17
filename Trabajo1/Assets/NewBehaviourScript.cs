@@ -5,10 +5,10 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
 
-    private string myVar = "Hola jugador";
-    private int myInt = 123;
-    private float myFloat = 2.5f;
-    private bool myBool = true;
+    public string myVar = "Hola jugador";
+    public int myInt = 123;
+    public float myFloat = 2.5f;
+    public bool myBool = true;
     
     
 
