@@ -11,6 +11,8 @@ public class NewBehaviourScript : MonoBehaviour
     public int myInt = 123;
     public float myFloat = 2.5f;
     public bool myBool = true;
+
+    public int Edad = 12;
     
     
 
@@ -25,6 +27,11 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Edad <= 20)
+        {
+            print(Edad);
+            Edad++;
+        }
         
     }
 }
