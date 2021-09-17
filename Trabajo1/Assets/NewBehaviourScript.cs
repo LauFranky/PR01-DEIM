@@ -19,19 +19,21 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print(myVar + myInt + myFloat + myBool);
-        print(myInt + myFloat);
-        print(myVar + myVar2);
+      while (Edad <= 20)
+        {
+            print(Edad);
+            Edad++;
+        }
+      for (myInt = 123; myInt <= 140;)
+        {
+            print(myInt);
+            myInt++;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Edad <= 20)
-        {
-            print(Edad);
-            Edad++;
-        }
         
     }
 }
