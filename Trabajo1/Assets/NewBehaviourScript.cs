@@ -14,27 +14,17 @@ public class NewBehaviourScript : MonoBehaviour
 
     public int Edad = 1;
 
+    public int myNumber;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        for(Edad = 1; Edad <20; Edad++)
+        while(myNumber != 6)
         {
-            if (Edad <= 11)
-            {
-                print("Soy un niño felis :D");
-            }
-            else if (Edad > 12 && Edad <= 18)
-            {
-                print("Tengo la edad del pavo");
-            }
-            else
-            {
-                print("Vaya por dios, soy adulto :(");
-            }
+            myNumber = Random.Range(0, 20);
+            print("El número es " + myNumber);
         }
-
 
     }
     // Update is called once per frame

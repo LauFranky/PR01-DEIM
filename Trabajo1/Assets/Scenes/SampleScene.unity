@@ -161,6 +161,7 @@ MonoBehaviour:
   myFloat: 0
   myBool: 1
   Edad: 0
+  myNumber: 4
 --- !u!65 &339413902
 BoxCollider:
   m_ObjectHideFlags: 0
