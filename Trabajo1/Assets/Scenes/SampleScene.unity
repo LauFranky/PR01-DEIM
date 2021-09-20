@@ -155,11 +155,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a157151313d6ce540a43a7b5345bf2be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myVar: Hola jugador
-  myVar2: Estas preparado para la aventura?
-  myInt: 321
-  myFloat: 5.5
-  myBool: 0
+  myVar: 
+  myVar2: 
+  myInt: 0
+  myFloat: 0
+  myBool: 1
+  Edad: 0
 --- !u!65 &339413902
 BoxCollider:
   m_ObjectHideFlags: 0
